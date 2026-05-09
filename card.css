@@ -1,0 +1,51 @@
+body{
+    background-color: #FEECA4;
+}
+
+img{
+    width: 230px;
+}
+
+div {
+    background-color: #013334;
+    text-align: center;
+    margin: 15% 35% 0% 35%;
+    padding: 10px 0px 3px 0px;
+}
+
+.title_name{
+    color: white;
+}
+
+.specialisation{
+    color: white;
+}
+
+#mail_link{
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#mail_link:link{
+    color: white;
+    text-decoration: none;
+}
+
+#mail_link:visited{
+    color: gray;
+}
+
+#proj_link{
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#proj_link:link{
+    color: white;
+    text-decoration: none;
+}
+
+#proj_link:visited{
+    color: gray;
+    text-decoration: none;
+}

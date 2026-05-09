@@ -4,6 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>My Page</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <style>
+
+    .ps_topic_last{
+        color: white;
+        background-color: #7B3AEC;
+        text-align: left;
+        padding-left: 13px;
+        padding-right: 25px;
+        font-size: 12px;
+        border: 1px solid #7B3AEC;
+        border-bottom-left-radius: 8px;
+    }
+
+    .row_gray_last{
+        background-color: #F5F3FF;
+        border: 1px solid #F5F3FF;
+        border-bottom-right-radius: 8px;
+        padding: 6px 17px 6px 10px;
+        font-size: 13px;
+    }
+
+  </style>
 </head>
 <body>
   <header>
@@ -15,6 +38,8 @@
       <li><a href="https://stefaniga.github.io/ewd-uvt-2026/">Course site</a></li>
       <li><a href="https://stefaniga.github.io/ewd-uvt-2026/resources/#bibliography">Resources</a></li>
       <li><a href="feedback.html">Contact</a></li>
+      <li><a href="cv.html"> CV </a></li>
+      <li><a href="chatbot.html"> Chatbot </a></li>
     </ul>
   </nav>
   <main id="main-content">
@@ -27,6 +52,76 @@
       <h2>Photo</h2>
       <img src="images/about.jpg" alt="Very beautiful cat.">
     </section>
+
+    <table id="pers_skills">
+    <caption>Personal Skills</caption>
+    <thead>
+        <tr>
+            <th scope="col" colspan="3" class="ps_head">Personal Skills</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="row_white">
+            <th scope="row" rowspan="3" class="ps_topic">Programming</th>
+            <td class="ps_topic_answ">Python</td>
+            <td style="background-color:#DEFBE9; color:#225C36; padding: 6px 17px 6px 10px; font-size: 13px;">JavaScript</td>
+        </tr>
+        <tr class="row_gray">
+            <td class="ps_topic_answ">C/C++</td>
+            <td style="background-color:#FEE1E3; color:#862C2C; padding: 6px 17px 6px 10px; font-size: 13px;">Java</td>
+        </tr>
+        <tr class="row_white">
+            <td class="ps_topic_answ">Java</td>
+            <td>-</td>
+        </tr>
+        <tr class="row_gray" >
+            <th scope="row" rowspan="4" class="ps_topic">Design</th>
+            <td colspan="2" class="ps_topic_answ">Figma</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="ps_topic_answ">Adobe XD</td>
+        </tr>
+        <tr class="row_gray">
+            <td colspan="2" class="ps_topic_answ">Photoshop</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="ps_topic_answ">UI/UX</td>
+        </tr>
+        <tr>
+            <th scope="row" class="ps_topic_last">Other</th>
+            <td colspan="2" class="row_gray_last">Git</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <table border ="1">
+      <caption>Personal projects</caption>
+      <thead>
+        <tr>
+          <th scope="col">Project Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Technologies</th>
+          <th scope="col">Difficulty</th>
+          <th scope="col">Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>N-Body Simulator</td>
+          <td>Simulates the gravitational attraction <br> between many bodies</td>
+          <td><ul><li>C++</li><li>OpenGL</li></ul></td>
+          <td>
+            <select name="diff" id="diff-select">
+              <option value="High">High</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+            </select>
+          </td>
+          <td><a href="https://github.com/Rares213/N-BodySimulator">Simulation</a></td>
+        </tr>
+      </tbody>
+    </table>
+
   </main>
   <footer>
     <p>Uza Rareș · Elemente de Web Design · Semestrul 2</p>
