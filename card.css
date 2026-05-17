@@ -1,0 +1,61 @@
+body{
+    background-color: #2e6ca7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    text-align: center;
+    height: auto;
+    width:  500px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 20px;
+}
+
+.title_name{
+    color: black;
+}
+
+.specialisation{
+    color: black;
+}
+
+#mail_link{
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#mail_link:link{
+    color: black;
+    text-decoration: none;
+}
+
+#mail_link:visited{
+    color: gray;
+}
+
+#proj_link{
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#proj_link:link{
+    color: white;
+    text-decoration: none;
+}
+
+#proj_link:visited{
+    color: gray;
+    text-decoration: none;
+}

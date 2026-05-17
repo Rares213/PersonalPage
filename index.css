@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e6ca7;
+}
+
+.index-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 500px;
+    min-height: 500px;
+
+    background-color: white;
+
+    border-radius: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px 30px 0px 30px;
+}
+
+li{
+    margin: 10px 0 10px 0px;
+    font-size: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black(54, 46, 167);
+}
+
+a:active{
+    color: black(46, 119, 167);
+}

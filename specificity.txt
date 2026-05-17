@@ -1,0 +1,17 @@
+1.
+A - selectorul p
+B - selectorul p si .info
+C - selectorul p si #warning
+D - selectorul p, #warning si #warning.info
+
+Selectorul p se refera la oricare paragraf, deci va fi aplicat pe toate paragrafele.
+Selectorul .info este aplicat pe paragrafele care au class="info".
+Selectorul #warning este aplicat pe paragrafele care au id="warning"
+Selectorul #warning.info este aplicat pe paragrafele care au class="info" si id="warning"
+
+2.
+Browser-ul foloseste culoarea definita de selectorul #warning.info.
+
+3.
+Conteaza ordinea in care css-ul exten si intern sunt plasate. De exemplu, daca css-ul extern se afla dupa 
+css-ul intern, atunci efectele celui extern vor fi vizibile.
