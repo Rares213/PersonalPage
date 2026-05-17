@@ -1,0 +1,112 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    min-height: 100%;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 99vh;
+    gap: 1vw;
+}
+
+.shallow-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(33, 38, 68);
+}
+
+.shallow-info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+    gap: 2vh;
+}
+
+img{
+    width: 15vw;
+
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    color: white;
+    height: 20vh;
+    width: 11vw;
+}
+
+.shallow-info-name{
+    color: white;
+    font-size: 2vw;
+}
+
+.contact-method{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5vh;
+}
+
+.contact-way{
+    font-size: 1.4vw;
+}
+
+.contact-content{
+    font-size: 1.1vw;
+}
+
+.language-info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1vh;
+}
+
+.langs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vh;
+}
+
+.lang{
+    font-size: 1.0vw;
+}
+
+.personal-info{
+    padding-left: 2vw;
+    color: rgb(33, 38, 68);
+}
+
+.personal-info h1{
+    font-size: 2.5vw;
+}
+
+.personal-info h2{
+    font-size: 1.5vw;
+}
+
+.about-me p{
+    font-size: 1.3vw;
+}
+
+.education h3{
+    font-size: 1.25vw;
+}
+
+.education p{
+    font-size: 1vw;
+}
